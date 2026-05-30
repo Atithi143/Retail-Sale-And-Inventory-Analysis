@@ -1,8 +1,8 @@
 # Sales and Inventory Analysis Dashboard
 ## Team Member 
--Atithi Singh (Team Leader)
--kalpana Reddy
--S Hassan
+- Atithi Singh (Team Leader)
+- kalpana Reddy
+- S Hassan
 
 ## Project Overview
 This project focuses on analyzing sales and inventory data to provide actionable business insights. The project uses Python, SQL, Jupyter Notebook, and Power BI to clean, analyze, visualize, and report business performance.

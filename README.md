@@ -1,5 +1,5 @@
 # Sales and Inventory Analysis Dashboard
-# Team Member 
+## Team Member 
 -Atithi Singh (Team Leader)
 -kalpana Reddy
 -S Hassan

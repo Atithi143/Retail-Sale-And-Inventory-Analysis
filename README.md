@@ -1,104 +1,65 @@
-# Sales and Inventory Analysis Dashboard
-## Team Member 
-- Atithi Singh (Team Leader)
-- kalpana Reddy
-- S Hassan
+# 🛒 Retail Sales Data Analysis & Business Insights
+## 📌 Project Overview
+This project analyzes retail sales data to extract actionable business insights. The workflow includes data cleaning using Python, data analysis using SQL, and visualization using Power BI.
 
-## Project Overview
-This project focuses on analyzing sales and inventory data to provide actionable business insights. The project uses Python, SQL, Jupyter Notebook, and Power BI to clean, analyze, visualize, and report business performance.
+The final goal is to interpret the dashboard and provide strategic recommendations for business decision-making.
 
-## Objectives
-- Analyze sales performance across products and regions.
-- Monitor inventory levels and stock movement.
-- Identify top-selling and low-performing products.
-- Track revenue, profit, and order trends.
-- Build an interactive Power BI dashboard for decision-making.
+## 🎯 Objectives
+* Identify sales trends and patterns
+* Determine best-performing products and categories
+* Analyze geographic sales distribution
+* Understand customer purchasing behavior
+* Generate actionable business insights
+## 🧰 Tools & Technologies Used
+* Python (Pandas) – Data Cleaning
+* SQL (MySQL) – Data Analysis
+* Power BI – Visualization & Dashboard
+* Git & GitHub – Version Control
+## 🧹 Data Preparation
+The dataset was cleaned and standardized using Python:
 
-## Tools & Technologies
-- Python (Pandas, NumPy, Matplotlib)
-- Jupyter Notebook
-- SQL (MySQL)
-- Power BI
-- Git & GitHub
+* Handled missing values
+* Removed duplicate records
+* Standardized date and time formats
+* Corrected data types (numeric, date, time)
+* Prepared structured dataset for analysis
+## 🗄️ Database & Querying
+The cleaned dataset was imported into MySQL and analyzed using SQL queries:
 
-## Project Workflow
-1. Data Collection
-2. Data Cleaning using Python
-3. Exploratory Data Analysis (EDA)
-4. SQL Queries and Business Analysis
-5. Dashboard Development in Power BI
-6. Insights and Recommendations
+* GROUP BY for aggregation
+* ORDER BY for sorting
+* Aggregate functions (SUM, AVG, COUNT)
+## 📊 Dashboard Overview
+A Power BI dashboard was created to visualize:
 
-## Dataset Information
-The dataset contains:
-- Order ID
-- Order Date
-- Customer Name
-- Product Name
-- Category
-- Quantity
-- Sales
-- Profit
-- Region
-- Inventory Level
+* Total Revenue
+* Product Performance
+* City-wise Sales Distribution
+* Category Contribution
+* Payment Method Usage
+* Sales Trends Over Time
 
-## Key Performance Indicators (KPIs)
-- Total Sales
-- Total Profit
-- Profit Margin
-- Total Orders
-- Inventory Turnover
-- Top Products
-- Regional Performance
+Sales Overview
+Sales Overview
 
-## SQL Analysis
-Some business questions answered:
-- Total Sales and Profit
-- Region-wise Sales Analysis
-- Top 10 Customers
-- Monthly Sales Trend
-- Category Performance Analysis
+Sales Analysis
+Sales Analysis
 
-## Power BI Dashboard Features
-### Executive Dashboard
-- Total Sales
-- Total Profit
-- Total Orders
-- Total Quantity Sold
+## 🔍 Key Insights
+* 📈 Certain products like watches generate higher sales volume
+* 🏙️ Hyderabad contribute significantly to total revenue
+* 📈 Strong performance in southern cities
+* 💳 Digital payments (UPI, cards) are more widely used than cash
+* 📅 Sales trends vary across dates and time
+* ⏰ Peak sales occur during specific hours
+## 💡 Business Recommendations
+* 🛍️ Focus on top-performing products for marketing and stock
+* 🌆 Target high-revenue cities with campaigns
+* 💳 Promote digital payments with offers
+* 📦 Optimize inventory based on demand patterns
+* ⏱️ Schedule promotions during peak hours
+* 📈 Opportunity to improve sales in Mumbai and northern regions
+## ✅ Conclusion
+This project demonstrates an end-to-end data analysis workflow, transforming raw retail data into meaningful insights using Python, SQL, and Power BI.
 
-### Sales Analysis
-- Monthly Sales Trend
-- Category-wise Sales
-- Regional Sales Performance
-
-### Inventory Analysis
-- Stock Availability
-- Low Stock Products
-- Inventory Distribution
-
-## Key Insights
-- Identified highest revenue-generating products.
-- Analyzed customer purchasing patterns.
-- Detected low-performing categories.
-- Improved inventory visibility for better stock management.
-
-## Project Structure
-
-Sales-Inventory-Analysis/
-│
-├── Dataset/
-│   └── sales_inventory.csv
-│
-├── Jupyter_Notebook/
-│   └── analysis.ipynb
-│
-├── SQL/
-│   └── queries.sql
-│
-├── PowerBI/
-│   └── dashboard.pbix
-│
-├── Screenshots/
-│   └── dashboard.png
-│
-└── README.md
+The analysis highlights that sales performance is driven by a combination of product demand, regional contribution, and customer purchasing behavior. Categories such as Electronics and Fashion play a major role in revenue generation, while cities like Hyderabad and Pune emerge as key markets. Additionally, the preference for digital payment methods and peak sales during specific hours reflect evolving customer trends.

@@ -40,10 +40,12 @@ A Power BI dashboard was created to visualize:
 * Sales Trends Over Time
 
 Sales Overview
-Sales Overview
+
+<img width="1325" height="748" alt="Dashboard" src="https://github.com/user-attachments/assets/4a77cd69-09b7-4ac6-a817-ca32729c152e" />
+
 
 Sales Analysis
-Sales Analysis
+<img width="1322" height="745" alt="Sales analysis" src="https://github.com/user-attachments/assets/3769f287-dada-40fe-989c-73bfa8eda6e2" />
 
 ## 🔍 Key Insights
 * 📈 Certain products like watches generate higher sales volume
